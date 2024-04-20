@@ -1,0 +1,12 @@
+Mapreduce Stages
+**** Knowledge Refreshment ****
+
+🌟 Understanding the Core Stages of MapReduce 🌟
+
+MapReduce is a powerful programming model essential for processing large data sets with a distributed algorithm on a cluster. Here’s a quick breakdown of its two main stages:
+
+1. **Map Stage**: Data is divided into smaller chunks, which are processed in parallel. This stage applies a map function to each chunk to produce output values.Once mapping is complete, the intermediate data is shuffled across all reducers to ensure that all data belonging to the same key is directed to the same reducer. At this point, data is also sorted.
+
+2. **Reduce Stage**: Each reducer processes its assigned data, combining values with the same key to generate the final output.
+
+This model not only simplifies tasks but also enhances the efficiency and scalability of big data processing.
